@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# IDE / System files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (Crucial if you add DB strings later)
+.env
+.env.local
+.env.*.local
+
+# Build outputs (If you eventually compile your TS)
+dist/
+build/
+out/
+
+# TypeScript / Node cache
+*.tsbuildinfo
+.npm
